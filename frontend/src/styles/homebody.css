@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'sfpro';
+  src: url('../assets/fonts/SF-Pro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+    
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
+body, html {
+  height: 100vh; /* Ensure full height of the viewport */
+}
+  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-height: calc(100vh - 70px); /* Full viewport height */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the content vertically */
+  padding: 20px; /* Add some padding around the content */
+  position: relative; /* Needed for positioning elements correctly */
+}
+
+.text-container {
+  justify-content: center;
+  max-width: 50%; /* Set width for the text content */
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.map-container {
+  position: relative; /* Allows positioning of child elements */
+  max-width: 50%; /* Keeps width as before */
+}
+
+.map-img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  padding: 20px 0px;
+}
+
+.forcast-button {
+  background-color: #344CB7;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  position: relative; /* Enables z-index */
+  z-index: 2; /* Higher than the line's z-index */
+}
+
+.forcast-button:hover {
+  background-color: rgba(25, 76, 183, 0.51);
+}
+
+/* New styles for the line */
+.line-container {
+  position: absolute;
+  bottom: -20px; /* Adjust based on where you want it */
+  left: 0;
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center; /* Keeps the line centered */
+}
+
+.line-img {
+  width: 100%; /* Now takes the full page width */
+  max-width: 100vw;
+  z-index: 1;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 550px) {
+  .text-container {
+    justify-content: center;
+    max-width: 50%; /* Set width for the text content */
+    padding-right: 5px;
+    font-size: 10px;
+  }
+}

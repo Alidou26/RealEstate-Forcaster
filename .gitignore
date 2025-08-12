@@ -1,0 +1,9 @@
+# Ignorer les environnements virtuels Python
+backend/venv/
+
+# Ignorer les fichiers de modèle lourds
+*.pkl
+
+# Fichiers générés par Python
+__pycache__/
+*.pyc
