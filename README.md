@@ -13,7 +13,7 @@ N'hésitez pas à y accéder pour obtenir l'intégralité des ressources.
 
 Une vidéo démonstrative est disponible pour illustrer l’interprétation des résultats dans l’interface utilisateur, après le lancement de l’application.
 
-[Cliquez ici pour visionner la vidéo](https://drive.google.com/file/d/1QE-VTaCejBlfkHpP5z2i3_TJZnjKV8Pk/view?usp=sharing)
+[Cliquez ici pour visionner la vidéo]([https://drive.google.com/file/d/1QE-VTaCejBlfkHpP5z2i3_TJZnjKV8Pk/view?usp=sharing](https://drive.google.com/file/d/1QE-VTaCejBlfkHpP5z2i3_TJZnjKV8Pk/view?usp=sharing))
 
 ## 📑 Table des Matières
 
